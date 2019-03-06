@@ -1,0 +1,78 @@
+/* Web Fonts -------------------- */
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+.main-header {
+  background: url(../images/bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width:fit-content;
+}
+
+.about {
+  margin: 2vw;
+}
+
+.fas {
+  @include icons;
+}
+
+.fab {
+  @include icons2;
+} 
+
+// portfolio pics ====#
+.pic {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.img:hover .pic {
+  transform: scale(1);
+}
+// end of portfolio pic ====#
+
+// portfolio image styling hover
+
+.portfolio {
+position: relative;
+overflow: hidden;
+
+}
+
+.img {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 139, 186, 1);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.img:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity: 1;
+}
+
+// end of my portfolio image styling
+
+.gp, .lc {
+  text-align: center;
+}
+
+
+
+

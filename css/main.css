@@ -1,0 +1,172 @@
+/* Mixins -------------------- */
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+@-webkit-keyframes coolers {
+  0% {
+    color: darkslateblue; }
+  25% {
+    color: slateblue; }
+  50% {
+    color: steelblue; }
+  100% {
+    color: teal; } }
+/* Web Fonts -------------------- */
+.main-header {
+  background: url(../images/bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: fit-content; }
+
+.about {
+  margin: 2vw; }
+
+.fas {
+  font-size: 2.5vw;
+  color: indigo;
+  -webkit-animation-name: coolers;
+  -webkit-animation-duration: 20s;
+  animation-name: coolers;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.fab {
+  color: indigo;
+  margin-left: 45%;
+  -webkit-animation-name: coolers;
+  -webkit-animation-duration: 20s;
+  animation-name: coolers;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.pic {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out; }
+
+.img:hover .pic {
+  transform: scale(1); }
+
+.portfolio {
+  position: relative;
+  overflow: hidden; }
+
+.img {
+  position: relative;
+  overflow: hidden; }
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008bba;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0; }
+
+.img:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity: 1; }
+
+.gp, .lc {
+  text-align: center; }
+
+/* Base Styles -------------------- */
+body {
+  background-color: azure;
+  margin: 0; }
+
+nav ul {
+  position: fixed;
+  width: 100%;
+  height: 6%;
+  margin: 0;
+  background-color: #000;
+  padding-top: 1%;
+  z-index: 2; }
+
+nav li {
+  display: inline;
+  list-style-type: none; }
+
+nav a {
+  text-decoration: none;
+  padding: 2%;
+  color: azure; }
+
+h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 2.5vw;
+  text-align: center;
+  margin: 2%;
+  height: 3vw;
+  background-color: #000;
+  color: white; }
+
+h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 35vh;
+  font-size: 10vw;
+  color: ghostwhite; }
+
+h3 {
+  font-size: 2vw;
+  font-family: 'Courgette', cursive; }
+
+p {
+  font-family: 'Courgette', cursive;
+  padding: 1vw;
+  font-size: 1vw; }
+
+div .fab {
+  font-size: 3.5vw; }
+
+.container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+
+.main-header {
+  grid-area: header; }
+
+.container {
+  grid-area: main;
+  display: block; }
+
+.feet {
+  grid-area: footer; }
+
+.wrapper {
+  display: grid;
+  margin: 2%;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "html css sass" "java github git"; }
+
+.portfolio {
+  display: grid;
+  margin: 3%;
+  grid-gap: 2%;
+  grid-template-columns: repeat(3, 1fr); }
+
+.education {
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 1fr 1fr; }
+
+.feet {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+/* Media Queries -------------------- */
+
+/*# sourceMappingURL=main.css.map */

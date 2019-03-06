@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "footer footer footer"
+}
+
+.main-header {
+    grid-area: header;
+}
+
+.container {
+    grid-area: main;
+    display: block;
+}
+
+.feet {
+    grid-area: footer;
+}
+
+.wrapper {
+    display: grid;
+    margin: 2%;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto) ;
+
+    grid-template-areas: "html css sass"
+                         "java github git"
+}
+
+// my container for  my portfolio
+.portfolio {
+    display: grid;
+    margin: 3%;
+    grid-gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+// end of my container work
+
+// start of my education lgayout
+.education {
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 1fr 1fr;
+}
+
+// end of my layout
+
+// start of my socials layout
+
+.feet {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}

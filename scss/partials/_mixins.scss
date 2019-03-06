@@ -1,0 +1,59 @@
+// Mixins are one of the most used features of Sass. They let you break CSS down into modular chunks that you can reuse anywhere in your stylesheets. Being able to do this helps us to avoid writing repetitive code.
+
+
+/* Mixins -------------------- */
+
+// mixins loadout
+
+@mixin heading {
+    font-family: 'Courgette', cursive; 
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 2%;
+    height: 3vw;
+    background-color: #000;
+    color: white;
+}
+
+@mixin icons {
+    font-size: 2.5vw;
+    color: indigo;
+
+    -webkit-animation-name: coolers;
+    -webkit-animation-duration: 20s;
+    animation-name: coolers;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+// skills icons with animation
+
+@mixin icons2 {
+    color: indigo;
+    margin-left: 45%;
+
+    -webkit-animation-name: coolers;
+    -webkit-animation-duration: 20s;
+    animation-name: coolers;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes coolers {
+    0%   {color: darkslateblue;}
+    25%  {color: slateblue;}
+    50%  {color: steelblue ;}
+    100% {color: teal;}
+  }
+
+//   end of animation icon
+
+@mixin para {
+    font-family: 'Courgette', cursive;
+    padding: 1vw;
+    font-size: 1vw;
+}
+
+
+
