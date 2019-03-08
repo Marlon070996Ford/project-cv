@@ -72,8 +72,38 @@
   height: 100%;
   opacity: 1; }
 
+.text {
+  margin: 30% 40%;
+  font-family: 'Fjalla One', sans-serif; }
+
 .gp, .lc {
   text-align: center; }
+
+.copyright {
+  margin-top: 1%;
+  font-family: 'Courgette', cursive; }
+
+.tool {
+  position: relative;
+  display: inline-block; }
+
+.tool .tiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; }
+
+.tool:hover .tiptext {
+  visibility: visible; }
 
 /* Base Styles -------------------- */
 body {
@@ -122,12 +152,16 @@ h3 {
   font-family: 'Courgette', cursive; }
 
 p {
-  font-family: 'Courgette', cursive;
+  font-family: 'Fjalla One', sans-serif;
   padding: 1vw;
-  font-size: 1vw; }
+  font-size: 1vw;
+  word-spacing: 10%; }
 
 div .fab {
   font-size: 3.5vw; }
+
+li {
+  font-size: 1vw; }
 
 .container {
   display: grid;
@@ -167,7 +201,25 @@ div .fab {
 
 .feet {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "linkedin whatsapp github email" "map map map map"; }
+
+.mail {
+  grid-area: email; }
+
+.git {
+  grid-area: github; }
+
+.linked {
+  grid-area: linkedin; }
+
+.what {
+  grid-area: whatsapp; }
+
+.map {
+  grid-area: map;
+  margin-top: 5%; }
 
 /* Media Queries -------------------- */
 

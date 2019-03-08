@@ -36,6 +36,24 @@
 
 .feet {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "linkedin whatsapp github email" "map map map map"; }
+
+.mail {
+  grid-area: email; }
+
+.git {
+  grid-area: github; }
+
+.linked {
+  grid-area: linkedin; }
+
+.what {
+  grid-area: whatsapp; }
+
+.map {
+  grid-area: map;
+  margin-top: 5%; }
 
 /*# sourceMappingURL=layouts.css.map */
