@@ -8,6 +8,7 @@
   background: url(https://cdn.pixabay.com/photo/2016/02/07/19/48/aurora-1185464_1280.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
   width: 100%; }
 
@@ -93,7 +94,33 @@
 .tool:hover .tiptext {
   visibility: visible; }
 
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc; }
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  position: relative;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1; }
+
 /* Base Styles -------------------- */
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-color: azure;
   margin: 0;
@@ -185,7 +212,9 @@ li {
 .education {
   display: grid;
   grid-gap: 2%;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  width: 96%;
+  margin: auto; }
 
 .feet {
   display: grid;

@@ -44,11 +44,13 @@
 
 // end of my container work
 
-// start of my education lgayout
+// start of my education layout
 .education {
     display: grid;
     grid-gap: 2%;
     grid-template-columns: 1fr 1fr;
+    width: 96%;
+    margin: auto;
 }
 
 // end of my layout
