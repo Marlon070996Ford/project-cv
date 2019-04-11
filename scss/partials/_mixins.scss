@@ -6,20 +6,18 @@
 // mixins loadout
 
 @mixin heading {
-    font-family: 'Courgette', cursive; 
+    font-family: 'Fredericka the Great', cursive;  
     font-size: 2.5vw;
     text-align: center;
     margin: 2%;
     height: 3vw;
-    background-color: #000;
+    background-image: linear-gradient(to right, #3772cb, #009cd3);  
     color: white;
     padding: 1%;    
 }
 
 @mixin icons {
     font-size: 2.5vw;
-
- 
 }
 
 // skills icons with animation
@@ -27,6 +25,7 @@
 @mixin icons2 {
     margin-left: 45%;
     color:azure;
+    padding: 3%;
 }
 
 
