@@ -2,27 +2,27 @@
 /* Web Fonts -------------------- */
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 @import url("https://fonts.googleapis.com/css?family=Courgette");
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
 @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
 .main-header {
-  background: url(../images/bg5.jpg);
+  background: url(https://cdn.pixabay.com/photo/2016/02/07/19/48/aurora-1185464_1280.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%; }
 
+.title-head {
+  font-family: 'Fredericka the Great', cursive; }
+
 .about {
   margin: 2vw; }
 
 .fas {
-  font-size: 2.5vw;
-  -webkit-animation-name: coolers;
-  -webkit-animation-duration: 20s;
-  animation-name: coolers;
-  animation-duration: 5s;
-  animation-iteration-count: infinite; }
+  font-size: 2.5vw; }
 
 .fab {
-  margin-left: 45%; }
+  margin-left: 45%;
+  color: #000; }
 
 .pic {
   width: 100%;
@@ -46,7 +46,7 @@
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: #008bba;
+  background-color: black;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -59,8 +59,10 @@
   opacity: 1; }
 
 .text {
-  margin: 30% 40%;
-  font-family: 'Fjalla One', sans-serif; }
+  margin-top: 30%;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  color: azure; }
 
 .gp, .lc {
   text-align: center; }
