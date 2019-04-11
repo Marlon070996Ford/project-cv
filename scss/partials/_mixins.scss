@@ -30,20 +30,9 @@
 
 @mixin icons2 {
     margin-left: 45%;
-
-    -webkit-animation-name: coolers;
-    -webkit-animation-duration: 20s;
-    animation-name: coolers;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes coolers {
-    0%   {color: darkslateblue;}
-    25%  {color: slateblue;}
-    50%  {color: steelblue ;}
-    100% {color: teal;}
-  }
+
 
 //   end of animation icon
 

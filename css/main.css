@@ -1,23 +1,14 @@
 /* Mixins -------------------- */
+/* Web Fonts -------------------- */
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One");
 @import url("https://fonts.googleapis.com/css?family=Courgette");
 @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
-@-webkit-keyframes coolers {
-  0% {
-    color: darkslateblue; }
-  25% {
-    color: slateblue; }
-  50% {
-    color: steelblue; }
-  100% {
-    color: teal; } }
-/* Web Fonts -------------------- */
 .main-header {
   background: url(../images/bg5.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
-  width: fit-content; }
+  width: 100%; }
 
 .about {
   margin: 2vw; }
@@ -31,12 +22,7 @@
   animation-iteration-count: infinite; }
 
 .fab {
-  margin-left: 45%;
-  -webkit-animation-name: coolers;
-  -webkit-animation-duration: 20s;
-  animation-name: coolers;
-  animation-duration: 5s;
-  animation-iteration-count: infinite; }
+  margin-left: 45%; }
 
 .pic {
   width: 100%;
