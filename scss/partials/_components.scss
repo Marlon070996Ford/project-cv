@@ -91,6 +91,7 @@ overflow: hidden;
 .copyright {
   margin-top: 1%; 
   font-family: 'Courgette', cursive;
+  color: azure;
 }
 
 
@@ -135,7 +136,7 @@ overflow: hidden;
   font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* My Collapsible Button With Content */
 .active, .collapsible:hover {
   background-color: #ccc;
 }
@@ -147,4 +148,15 @@ overflow: hidden;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+
+// ============
+
+.parallax {
+  height: 70vh;
+  background-image: url(https://cdn.pixabay.com/photo/2019/03/31/19/49/mountain-4093853_1280.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
 }

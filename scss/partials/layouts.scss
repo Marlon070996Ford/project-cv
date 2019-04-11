@@ -59,7 +59,8 @@
 
 .feet {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "linkedin whatsapp github email"
                          "map map map map"
