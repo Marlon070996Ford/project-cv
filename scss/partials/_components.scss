@@ -144,7 +144,7 @@ overflow: hidden;
 
 /* My Collapsible Button With Content */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-image: linear-gradient(to right, #3772cb, #009cd3);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -153,7 +153,7 @@ overflow: hidden;
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: azure;
 }
 
 

@@ -23,6 +23,8 @@
 }
 
 .wrapper {
+    height: 50vh;
+    background-image: linear-gradient(to right, #3772cb, #009cd3);
     display: grid;
     margin: 2%;
     grid-gap: 5px;
@@ -51,6 +53,7 @@
     grid-template-columns: 1fr 1fr;
     width: 96%;
     margin: auto;
+    height: 50vh;
 }
 
 // end of my layout

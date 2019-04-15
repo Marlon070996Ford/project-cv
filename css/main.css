@@ -114,7 +114,7 @@
 
 /* My Collapsible Button With Content */
 .active, .collapsible:hover {
-  background-color: #ccc; }
+  background-image: linear-gradient(to right, #3772cb, #009cd3); }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
@@ -122,7 +122,7 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1; }
+  background-color: azure; }
 
 .parallax {
   height: 70vh;
@@ -162,7 +162,7 @@ h1 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 2.5vw;
   text-align: center;
-  margin: 2%;
+  margin: 0 0 2% 0;
   height: 3vw;
   background-image: linear-gradient(to right, #3772cb, #009cd3);
   color: white;
@@ -215,6 +215,8 @@ footer {
   grid-area: footer; }
 
 .wrapper {
+  height: 50vh;
+  background-image: linear-gradient(to right, #3772cb, #009cd3);
   display: grid;
   margin: 2%;
   grid-gap: 5px;
@@ -233,7 +235,8 @@ footer {
   grid-gap: 2%;
   grid-template-columns: 1fr 1fr;
   width: 96%;
-  margin: auto; }
+  margin: auto;
+  height: 50vh; }
 
 .feet {
   display: grid;
