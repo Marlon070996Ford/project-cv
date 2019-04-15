@@ -124,7 +124,7 @@
 
 .parallax {
   height: 70vh;
-  background-image: url(../../images/hero.jpg);
+  background-image: url(../../images/astro);
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat; }
@@ -192,7 +192,8 @@ li {
   font-size: 1vw; }
 
 footer {
-  height: 10vh; }
+  height: 10vh;
+  background-image: linear-gradient(to right, #3772cb, #009cd3); }
 
 .container {
   display: grid;
