@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
 @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
 .main-header {
-  background: url(https://cdn.pixabay.com/photo/2016/02/07/19/48/aurora-1185464_1280.jpg);
+  background: url(../../images/aurora.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,7 +13,12 @@
   width: 100%; }
 
 .title-head {
-  font-family: 'Fredericka the Great', cursive; }
+  font-family: 'Fredericka the Great', cursive;
+  color: azure;
+  text-align: left; }
+
+.header-title {
+  margin: 0 15vw; }
 
 .about {
   margin: 2vw; }
@@ -121,7 +126,7 @@
 
 .parallax {
   height: 70vh;
-  background-image: url(https://cdn.pixabay.com/photo/2019/03/31/19/49/mountain-4093853_1280.jpg);
+  background-image: url(../../images/hero.jpg);
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat; }
