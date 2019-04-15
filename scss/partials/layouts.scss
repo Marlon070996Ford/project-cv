@@ -24,7 +24,10 @@
 
 .wrapper {
     height: 50vh;
-    background-image: linear-gradient(to right, #3772cb, #009cd3);
+    background-image: url(../../images/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: grid;
     margin: 2%;
     grid-gap: 5px;
@@ -38,7 +41,7 @@
 // my container for  my portfolio
 .portfolio {
     display: grid;
-    margin: 3%;
+    margin: 2%;
     grid-gap: 2%;
     grid-template-columns: repeat(3, 1fr);
 
