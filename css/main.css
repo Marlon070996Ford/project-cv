@@ -263,5 +263,23 @@ footer {
   margin-top: 5%; }
 
 /* Media Queries -------------------- */
+@media (max-width: 480px) {
+  .portfolio {
+    display: block;
+    margin: 2%; }
+
+  .wrapper {
+    height: 50vh;
+    background-image: url(../../images/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin: 2%; }
+
+  .education {
+    display: block;
+    width: 96%;
+    margin: auto; } }
 
 /*# sourceMappingURL=main.css.map */
