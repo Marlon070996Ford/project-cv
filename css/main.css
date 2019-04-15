@@ -100,10 +100,11 @@
   visibility: visible; }
 
 .collapsible {
-  background-color: #eee;
+  background-image: linear-gradient(to right, #3772cb, #009cd3);
   color: #444;
   cursor: pointer;
   padding: 18px;
+  margin-bottom: 4%;
   width: 100%;
   border: none;
   text-align: center;
@@ -112,7 +113,7 @@
 
 /* My Collapsible Button With Content */
 .active, .collapsible:hover {
-  background-image: linear-gradient(to right, #3772cb, #009cd3); }
+  background-image: yellow; }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
@@ -193,7 +194,7 @@ li {
 
 footer {
   height: 10vh;
-  background-image: linear-gradient(to right, #3772cb, #009cd3); }
+  background-color: #090933; }
 
 .container {
   display: grid;
@@ -236,8 +237,7 @@ footer {
   grid-gap: 2%;
   grid-template-columns: 1fr 1fr;
   width: 96%;
-  margin: auto;
-  height: 50vh; }
+  margin: auto; }
 
 .feet {
   display: grid;

@@ -39,8 +39,7 @@
   grid-gap: 2%;
   grid-template-columns: 1fr 1fr;
   width: 96%;
-  margin: auto;
-  height: 50vh; }
+  margin: auto; }
 
 .feet {
   display: grid;
