@@ -144,7 +144,8 @@
   font-size: 2vw;
   float: right;
   padding-top: 35vh;
-  font-family: "Pacifico", cursive; }
+  font-family: 'Pacifico', cursive;
+  margin-right: 2vw; }
 
 /* Base Styles -------------------- */
 html {

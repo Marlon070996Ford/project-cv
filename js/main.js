@@ -12,3 +12,28 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+// my jquery fade in code
+
+let text = ["Driven", "Team-Player", "Accountable", "Funny", "Honest"];
+
+counter = 0;
+
+response = $("#quotation");
+
+setInterval(change, 1500);
+
+function change() {
+
+response.fadeOut(function(){
+
+    response.html(text[counter]);
+
+    counter++;
+
+    if(counter >= text.length) { counter = 0; }
+
+    response.fadeIn();
+
+});
+
+}
