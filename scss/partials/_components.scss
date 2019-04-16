@@ -6,6 +6,11 @@
 // font-family: 'Fjalla One', sans-serif;
 // font-family: 'Courgette', cursive;
 
+.down-arrow {
+  padding-left: 60vw;
+  font-size: 2vw;
+}
+
 .main-header {
   background: url(../../images/aurora.jpg);
   background-size: 100% 100%;
@@ -24,6 +29,14 @@
 
 .header-title {
   margin: 0 15vw;
+}
+
+.letters {
+  color: yellow;
+}
+
+.dot {
+  color: yellow;
 }
 
 .fas {
@@ -164,3 +177,11 @@ overflow: hidden;
   background-size: 100% 100%;
   background-repeat: no-repeat; 
 }
+
+.paragraph {
+  color: yellow;
+  font-size: 2vw;
+  float: right;
+  padding-top: 35vh;
+}
+
