@@ -1,8 +1,6 @@
 /* Mixins -------------------- */
 /* Web Fonts -------------------- */
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
-@import url("https://fonts.googleapis.com/css?family=Courgette");
-@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Fjalla+One|Fredericka+the+Great|Pacifico");
 @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
 .down-arrow {
   padding-left: 60vw;
@@ -144,7 +142,8 @@
   color: yellow;
   font-size: 2vw;
   float: right;
-  padding-top: 35vh; }
+  padding-top: 35vh;
+  font-family: "Pacifico", cursive; }
 
 /* Base Styles -------------------- */
 html {

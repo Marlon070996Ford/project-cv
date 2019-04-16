@@ -1,10 +1,10 @@
 /* Web Fonts -------------------- */
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Fjalla+One|Fredericka+the+Great|Pacifico');
 @import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
-// font-family: 'Fjalla One', sans-serif;
+// font-family: 'Pacifico', cursive;
 // font-family: 'Courgette', cursive;
+// font-family: 'Fjalla One', sans-serif;
+// font-family: 'Fredericka the Great', cursive;
 
 .down-arrow {
   padding-left: 60vw;
@@ -183,5 +183,6 @@ overflow: hidden;
   font-size: 2vw;
   float: right;
   padding-top: 35vh;
+  font-family: 'Pacifico', cursive
 }
 
