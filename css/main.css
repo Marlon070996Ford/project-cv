@@ -311,10 +311,7 @@ footer {
   .wrapper {
     height: 70vh;
     margin: 2%;
-    background: url(../images/hero.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: linear-gradient(to right, #3772cb, #009cd3);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "html css" "java sass" "github git"; }
