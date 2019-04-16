@@ -7,7 +7,7 @@
   font-size: 2vw; }
 
 .main-header {
-  background: url(../../images/aurora.jpg);
+  background: url(../images/aurora.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -154,7 +154,7 @@
 
 .parallax {
   height: 70vh;
-  background-image: url(../../images/astro);
+  background-image: url(../images/astro);
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat; }
@@ -220,7 +220,7 @@ h3 {
 p {
   font-family: 'Fjalla One', sans-serif;
   padding: 1vw;
-  font-size: 1vw;
+  font-size: 3vw;
   word-spacing: 10%; }
 
 div .fab {
@@ -255,7 +255,7 @@ footer {
 
 .wrapper {
   height: 50vh;
-  background-image: url(../../images/hero.jpg);
+  background-image: url(../images/hero.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;

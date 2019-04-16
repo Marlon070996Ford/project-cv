@@ -81,6 +81,11 @@ Tools:
 - Added a fade in fade out quotation
 - Restyled my layout/Website
 
+2019-04-12
+- Finished Cv
+- Checking Responsiveness
+- Fixing small bugs
+
 
 ## Contributors
 
