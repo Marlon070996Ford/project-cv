@@ -81,9 +81,10 @@
   text-align: center; }
 
 .copyright {
-  margin-top: 1%;
+  margin-top: 10%;
   font-family: 'Courgette', cursive;
-  color: azure; }
+  color: azure;
+  font-size: 2vw; }
 
 .tool {
   position: relative;
@@ -284,7 +285,7 @@ footer {
     margin: 2%; }
 
   .wrapper {
-    height: 50vh;
+    height: 65vh;
     background-image: url(../../images/hero.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
