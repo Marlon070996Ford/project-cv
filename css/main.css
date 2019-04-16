@@ -319,6 +319,9 @@ footer {
   .education {
     display: block;
     width: 96%;
-    margin: auto; } }
+    margin: auto; }
+
+  .content li {
+    font-size: 4vw; } }
 
 /*# sourceMappingURL=main.css.map */
