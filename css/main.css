@@ -150,7 +150,8 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: azure; }
+  background-color: azure;
+  font-size: 1vw; }
 
 .parallax {
   height: 70vh;
@@ -220,7 +221,7 @@ h3 {
 p {
   font-family: 'Fjalla One', sans-serif;
   padding: 1vw;
-  font-size: 3vw;
+  font-size: 1vw;
   word-spacing: 10%; }
 
 div .fab {
